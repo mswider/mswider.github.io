@@ -3,11 +3,17 @@
 <head>
 <title>St. Athanasius Tour</title>
   <script src="./vrview.min.js"></script>
+  <script>
+    function show(){
+      document.getElementById("showable").style.display = "none";
+    }
+  </script>
 </head>
 <body>
   <h3>Phil Swift here from Flex Tape!</h3>
   <p>To show you the power of flex tape,</p>
-  <br>
+  <br id="showable">
   <p>I sawed this boat in half!</p>
+  <button onclick="show()">And repaired it using only Flex Tape!</button>
 </body>
 </html>
