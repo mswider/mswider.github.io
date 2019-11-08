@@ -24,6 +24,14 @@
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
+  vrView.on('click', function(event) {
+  if (event.id == 'lobby') {
+    vrView.setContentInfo({
+      image: '//mswider.github.io/R0010042.JPG',
+      is_stereo: false
+    });
+  }
+  });
       });
   }
   </script>
