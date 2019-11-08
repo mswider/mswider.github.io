@@ -24,6 +24,18 @@
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
+  vrView.addHotspot('unitAIntersection', {
+    pitch: -15, // In degrees. Up is positive.
+    yaw: -15, // In degrees. To the right is positive.
+    radius: 0.75, // Radius of the circular target in meters.
+    distance: 10 // Distance of target from camera in meters.
+  });
+  vrView.addHotspot('gymIntersection', {
+    pitch: -20, // In degrees. Up is positive.
+    yaw: -95, // In degrees. To the right is positive.
+    radius: 0.75, // Radius of the circular target in meters.
+    distance: 10 // Distance of target from camera in meters.
+  });
   vrView.on('click', function(event) {
   if (event.id == 'lobby') {
     vrView.setContent({
