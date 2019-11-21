@@ -6,7 +6,20 @@
   <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
   <script>
     window.addEventListener('load', onVrViewLoad);
-
+    var sceneData = {"f1Intersection":{"image":'//mswider.github.io/R0010042.JPG', "hotspots":{'gymIntersection':{"p":-20,"y":95},'unitAIntersection':{"p":-15,"y":-15}}}};
+  function changeView(location) {
+    vrView.setContent({
+      image: location.image,
+      is_stereo: false
+    });
+    for(i in location.hotspots){
+    vrView.addHotspot(location.hotspots[i], {
+    pitch: p, // In degrees. Up is positive.
+    yaw: y, // In degrees. To the right is positive.
+    radius: 0.75, // Radius of the circular target in meters.
+    distance: 10 // Distance of target from camera in meters.
+  });
+    }}
   function onVrViewLoad() {
     // Selector '#vrview' finds element with id 'vrview'.
     var width = window.innerWidth;
@@ -24,7 +37,7 @@
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
-  vrView.addHotspot('unitAIntersection', {
+  /*vrView.addHotspot('unitAIntersection', {
     pitch: -15, // In degrees. Up is positive.
     yaw: -15, // In degrees. To the right is positive.
     radius: 0.75, // Radius of the circular target in meters.
@@ -35,13 +48,10 @@
     yaw: 95, // In degrees. To the right is positive.
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
-  });
+  });*/
   vrView.on('click', function(event) {
   if (event.id == 'lobby') {
-    vrView.setContent({
-      image: '//mswider.github.io/R0010042.JPG',
-      is_stereo: false
-    });
+    changeView('f1Intersection');
   }
   });
       });
