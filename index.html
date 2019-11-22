@@ -13,7 +13,7 @@
       image: sceneData[location].image,
       is_stereo: false
     });
-    console.log(location);
+    console.log(sceneData[location]);
     for(i in sceneData[location].hotspots){
     vrView.addHotspot(sceneData[location].hotspots[i], {
     pitch: sceneData[location].hotspots[i].p, // In degrees. Up is positive.
