@@ -10,11 +10,12 @@
     var sceneData = {"f1Intersection":{"image":'//mswider.github.io/R0010042.JPG', "hotspots":{'gymIntersection':{"p":-20,"y":95},'unitAIntersection':{"p":-15,"y":-15}}}};
   function changeView(location) {
     vrView.setContent({
-      image: location.image,
+      image: sceneData[location].image,
       is_stereo: false
     });
-    for(i in location.hotspots){
-    vrView.addHotspot(location.hotspots[i], {
+    //console.log(location);
+    for(i in sceneData[location].hotspots){
+    vrView.addHotspot(sceneData[location].hotspots[i], {
     pitch: p, // In degrees. Up is positive.
     yaw: y, // In degrees. To the right is positive.
     radius: 0.75, // Radius of the circular target in meters.
@@ -52,7 +53,7 @@
   });*/
   vrView.on('click', function(event) {
   if (event.id == 'lobby') {
-    changeView('f1Intersection');
+    changeView("f1Intersection");
   }
   });
       });
