@@ -7,13 +7,14 @@
   <script>
     window.addEventListener('load', onVrViewLoad);
     function onVrViewLoad() {
-    var sceneData = {"f1Intersection":{"image":'//mswider.github.io/R0010042.JPG', "hotspots":{'gymIntersection':{"p":-20,"y":95},'unitAIntersection':{"p":-15,"y":-15}}}};
+    var sceneData = {"f1Intersection":{"image":'//mswider.github.io/R0010042.JPG', "hotspots":{'gymIntersection':{"p":-27,"y":86},'unitAIntersection':{"p":-15,"y":-15}}}};
   function changeView(location) {
     vrView.setContent({
       image: sceneData[location].image,
       is_stereo: false
     });
     console.log(sceneData[location]);
+    
     for(i in sceneData[location].hotspots){
     vrView.addHotspot(sceneData[location].hotspots[i], {
     pitch: sceneData[location].hotspots[i].p, // In degrees. Up is positive.
@@ -21,6 +22,7 @@
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
+      console.log(sceneData[location].hotspots[i]);
     }}
   
     // Selector '#vrview' finds element with id 'vrview'.
