@@ -16,7 +16,7 @@
     console.log(sceneData[location]);
     
     for(i in sceneData[location].hotspots){
-      var name = i;
+    var name = i;
     vrView.addHotspot(sceneData[location].hotspots[name], {
     pitch: sceneData[location].hotspots[name].p, // In degrees. Up is positive.
     yaw: sceneData[location].hotspots[name].y, // In degrees. To the right is positive.
