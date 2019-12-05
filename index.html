@@ -16,9 +16,10 @@
     console.log(sceneData[location]);
     
     for(i in sceneData[location].hotspots){
-    vrView.addHotspot(sceneData[location].hotspots[i], {
-    pitch: sceneData[location].hotspots[i].p, // In degrees. Up is positive.
-    yaw: sceneData[location].hotspots[i].y, // In degrees. To the right is positive.
+      var name = i;
+    vrView.addHotspot(sceneData[location].hotspots[name], {
+    pitch: sceneData[location].hotspots[name].p, // In degrees. Up is positive.
+    yaw: sceneData[location].hotspots[name].y, // In degrees. To the right is positive.
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
