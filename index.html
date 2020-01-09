@@ -21,7 +21,7 @@
 var sceneData;
 XHR('data.json', function(response) {
     sceneData = JSON.parse(response);
-}
+});
   function changeView(location) {
     vrView.setContent({
       image: sceneData[location].image,
