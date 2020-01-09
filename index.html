@@ -7,8 +7,21 @@
   <script>
     window.addEventListener('load', onVrViewLoad);
     function onVrViewLoad() {
-    var sceneData = {"f1Intersection":{"image":'//mswider.github.io/R0010042.JPG', "hotspots":{'gymIntersection':{"p":-22,"y":81},'unitAIntersection':{"p":-15,"y":-15}}}
-										"gymIntersection":{"image":'//mswider.github.io/R0010047.JPG', "hotspots":{}}};
+	function XHR(file, callback){
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState === 4 && xhr.status === 200){
+            callback(xhr.responseText);
+            //console.log(JSON.parse(xhr.responseText));
+        }
+    }
+    xhr.open('GET', file, true);
+    xhr.send();
+}
+var sceneData;
+XHR('data.json', function(response) {
+    sceneData = JSON.parse(response);
+}
   function changeView(location) {
     vrView.setContent({
       image: sceneData[location].image,
