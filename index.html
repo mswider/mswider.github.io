@@ -7,7 +7,8 @@
   <script>
     window.addEventListener('load', onVrViewLoad);
     function onVrViewLoad() {
-    var sceneData = {"f1Intersection":{"image":'//mswider.github.io/R0010042.JPG', "hotspots":{'gymIntersection':{"p":-22,"y":81},'unitAIntersection':{"p":-15,"y":-15}}}};
+    var sceneData = {"f1Intersection":{"image":'//mswider.github.io/R0010042.JPG', "hotspots":{'gymIntersection':{"p":-22,"y":81},'unitAIntersection':{"p":-15,"y":-15}}}
+										"gymIntersection":{"image":'//mswider.github.io/R0010047.JPG', "hotspots":{}}};
   function changeView(location) {
     vrView.setContent({
       image: sceneData[location].image,
@@ -56,8 +57,13 @@
     distance: 10 // Distance of target from camera in meters.
   });*/
   vrView.on('click', function(event) {
-  if (event.id == 'lobby') {
-    changeView("f1Intersection");
+  switch(event.id){
+		case 'lobby':
+			changeView("f1Intersection");
+			break;
+		case 'gymIntersection':
+			changeView("gymIntersection");
+			break;
   }
   });
       });
