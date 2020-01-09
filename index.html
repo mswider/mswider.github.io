@@ -5,6 +5,7 @@
   <!-- <script src="./vrview.min.js"></script> -->
   <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
   <script>
+var sceneData;
     window.addEventListener('load', onVrViewLoad);
     function onVrViewLoad() {
 	function XHR(file, callback){
@@ -18,7 +19,6 @@
     xhr.open('GET', file, true);
     xhr.send();
 }
-var sceneData;
 XHR('data.json', function(response) {
     sceneData = JSON.parse(response);
 });
