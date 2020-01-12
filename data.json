@@ -2,4 +2,6 @@
 "unitAIntersection":{"p":-5,"y":-5},"f1Lobby":{"p":5,"y":177}}},"gymIntersection":{"image":"//mswider.github.io/R0010047.JPG", "hotspots":{"f1Hallway":{"p":2,"y":169},"gym":{"p":-40,"y":80},"cafeteria":{"p":-10,"y":8}}},
 "f1Lobby":{"image":"//mswider.github.io/R0010043.JPG", "hotspots":{"lobby":{"p":-15,"y":0}}},
 "gym":{"image":"//mswider.github.io/R0010049.JPG", "hotspots":{"gymIntersection1":{"p":8,"y":-139},"gymIntersection2":{"p":8,"y":137}}},
-"cafeteria":{"image":"//mswider.github.io/R0010048.JPG", "hotspots":{"gymIntersection3":{"p":7,"y":167}}}}
+"cafeteria":{"image":"//mswider.github.io/R0010048.JPG", "hotspots":{"gymIntersection3":{"p":7,"y":167}}},
+"unitAIntersection":{"image":"//mswider.github.io/R0010041.JPG", "hotspots":{"f1Intersection":{"p":7,"y":173},"wStairs":{"p":15,"y":8}}},
+"wStairs":{"image":"//mswider.github.io/R0010040.JPG", "hotspots":{"unitAIntersectionStairs":{"p":-30,"y":2}}}}
