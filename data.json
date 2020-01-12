@@ -1,3 +1,5 @@
 {"f1Intersection":{"image":"//mswider.github.io/R0010042.JPG", "hotspots":{"gymIntersection":{"p":-30,"y":81},
-"unitAIntersection":{"p":-5,"y":-5},"f1Lobby":{"p":5,"y":177}}},"gymIntersection":{"image":"//mswider.github.io/R0010047.JPG", "hotspots":{"f1Hallway":{"p":2,"y":169},"gym":{"p":-40,"y":80}}},
-"f1Lobby":{"image":"//mswider.github.io/R0010043.JPG", "hotspots":{"lobby":{"p":-15,"y":0}}}}
+"unitAIntersection":{"p":-5,"y":-5},"f1Lobby":{"p":5,"y":177}}},"gymIntersection":{"image":"//mswider.github.io/R0010047.JPG", "hotspots":{"f1Hallway":{"p":2,"y":169},"gym":{"p":-40,"y":80},"cafeteria":{"p":-10,"y":8}}},
+"f1Lobby":{"image":"//mswider.github.io/R0010043.JPG", "hotspots":{"lobby":{"p":-15,"y":0}}},
+"gym":{"image":"//mswider.github.io/R0010049.JPG", "hotspots":{"gymIntersection1":{"p":8,"y":-139},"gymIntersection2":{"p":8,"y":137}}},
+"cafeteria":{"image":"//mswider.github.io/R0010048.JPG", "hotspots":{"gymIntersection3":{"p":7,"y":167}}}}
