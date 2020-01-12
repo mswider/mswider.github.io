@@ -1,7 +1,10 @@
 {"f1Intersection":{"image":"//mswider.github.io/R0010042.JPG", "hotspots":{"gymIntersection":{"p":-30,"y":81},
 "unitAIntersection":{"p":-5,"y":-5},"f1Lobby":{"p":5,"y":177}}},"gymIntersection":{"image":"//mswider.github.io/R0010047.JPG", "hotspots":{"f1Hallway":{"p":2,"y":169},"gym":{"p":-40,"y":80},"cafeteria":{"p":-10,"y":8}}},
-"f1Lobby":{"image":"//mswider.github.io/R0010043.JPG", "hotspots":{"lobby":{"p":-15,"y":0}}},
+"f1Lobby":{"image":"//mswider.github.io/R0010043.JPG", "hotspots":{"lobby":{"p":-15,"y":0},"eStairs1":{"p":0,"y":-69}}},
 "gym":{"image":"//mswider.github.io/R0010049.JPG", "hotspots":{"gymIntersection1":{"p":8,"y":-139},"gymIntersection2":{"p":8,"y":137}}},
 "cafeteria":{"image":"//mswider.github.io/R0010048.JPG", "hotspots":{"gymIntersection3":{"p":7,"y":167}}},
 "unitAIntersection":{"image":"//mswider.github.io/R0010041.JPG", "hotspots":{"f1Intersection":{"p":7,"y":173},"wStairs":{"p":15,"y":8}}},
-"wStairs":{"image":"//mswider.github.io/R0010040.JPG", "hotspots":{"unitAIntersectionStairs":{"p":-30,"y":2}}}}
+"wStairs":{"image":"//mswider.github.io/R0010040.JPG", "hotspots":{"unitAIntersectionStairs":{"p":-30,"y":2},"unitCIntersectionStairs":{"p":3,"y":18}}},
+"unitCIntersection":{"image":"//mswider.github.io/R0010039.JPG", "hotspots":{"wStairs1":{"p":20,"y":150},"languageHallway":{"p":-10,"y":-2}}},
+"languageHallway":{"image":"//mswider.github.io/R0010046.JPG", "hotspots":{"unitCIntersection":{"p":1,"y":10},"eStairs":{"p":-30,"y":-80}}},
+"eStairs":{"image":"//mswider.github.io/R0010045.JPG", "hotspots":{"languageHallway1":{"p":20,"y":6},"lobbyStairs":{"p":-10,"y":-6}}}}

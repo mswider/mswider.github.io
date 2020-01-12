@@ -58,18 +58,12 @@ XHR('data.json', function(response) {
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
-  /*vrView.addHotspot('unitAIntersection', {
-    pitch: -15, // In degrees. Up is positive.
-    yaw: -15, // In degrees. To the right is positive.
+  vrView.addHotspot('eStairs1', {
+    pitch: 0, // In degrees. Up is positive.
+    yaw: -69, // In degrees. To the right is positive.
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
-  vrView.addHotspot('gymIntersection', {
-    pitch: -20, // In degrees. Up is positive.
-    yaw: 95, // In degrees. To the right is positive.
-    radius: 0.75, // Radius of the circular target in meters.
-    distance: 10 // Distance of target from camera in meters.
-  });*/
   vrView.on('click', function(event) {
   switch(event.id){
 		case 'lobby':
@@ -110,6 +104,30 @@ XHR('data.json', function(response) {
       break;
     case 'unitAIntersectionStairs':
       changeView("unitAIntersection");
+      break;
+    case 'unitCIntersectionStairs':
+      changeView("unitCIntersection");
+      break;
+    case 'wStairs1':
+      changeView("wStairs");
+      break;
+    case 'languageHallway':
+      changeView("languageHallway");
+      break;
+    case 'unitCIntersection':
+      changeView("unitCIntersection");
+      break;
+    case 'eStairs':
+      changeView("eStairs");
+      break;
+    case 'languageHallway1':
+      changeView("languageHallway");
+      break;
+    case 'lobbyStairs':
+      changeView("f1Lobby");
+      break;
+    case 'eStairs1':
+      changeView("eStairs");
       break;
   }
   });
