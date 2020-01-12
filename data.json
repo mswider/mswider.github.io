@@ -1,2 +1,3 @@
 {"f1Intersection":{"image":"//mswider.github.io/R0010042.JPG", "hotspots":{"gymIntersection":{"p":-22,"y":81},
-"unitAIntersection":{"p":-15,"y":-15},"f1Lobby":{"p":5,"y":177}}},"gymIntersection":{"image":"//mswider.github.io/R0010047.JPG", "hotspots":{"f1Hallway":{"p":2,"y":169}}}}
+"unitAIntersection":{"p":-15,"y":-15},"f1Lobby":{"p":5,"y":177}}},"gymIntersection":{"image":"//mswider.github.io/R0010047.JPG", "hotspots":{"f1Hallway":{"p":2,"y":169},"gym":{"p":20,"y":90}}},
+"f1Lobby":{"image":"//mswider.github.io/R0010043.JPG", "hotspots":{"lobby":{"p":-15,"y":0}}}}
