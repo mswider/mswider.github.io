@@ -28,7 +28,7 @@ XHR('data.json', function(response) {
       is_stereo: false
     });
     console.log(sceneData[location]);
-    
+
     for(i in sceneData[location].hotspots){
     var name = i;
       console.log(name);
@@ -40,7 +40,7 @@ XHR('data.json', function(response) {
   });
       console.log(sceneData[location].hotspots[i]);
     }}
-  
+
     // Selector '#vrview' finds element with id 'vrview'.
     var width = window.innerWidth;
     var height = window.innerHeight;
@@ -76,6 +76,9 @@ XHR('data.json', function(response) {
 			break;
 		case 'gymIntersection':
 			changeView("gymIntersection");
+			break;
+    case 'f1Hallway':
+			changeView("f1Intersection");
 			break;
   }
   });
