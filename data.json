@@ -5,7 +5,7 @@
 "cafeteria":{"image":"//mswider.github.io/R0010048.JPG", "hotspots":{"gymIntersection3":{"p":7,"y":167}}},
 "unitAIntersection":{"image":"//mswider.github.io/R0010041.JPG", "hotspots":{"f1Intersection":{"p":7,"y":173},"wStairs":{"p":15,"y":8},"kindergartenUnitA":{"p":30,"y":-97}}},
 "wStairs":{"image":"//mswider.github.io/R0010040.JPG", "hotspots":{"unitAIntersectionStairs":{"p":-30,"y":2},"unitCIntersectionStairs":{"p":3,"y":18}}},
-"unitCIntersection":{"image":"//mswider.github.io/R0010039.JPG", "hotspots":{"wStairs1":{"p":20,"y":150},"languageHallway":{"p":-10,"y":-2}}},
+"unitCIntersection":{"image":"//mswider.github.io/R0010039.JPG", "hotspots":{"wStairs1":{"p":20,"y":150},"languageHallway":{"p":-10,"y":-2},"unitD1":{"p":-2,"y":87}}},
 "languageHallway":{"image":"//mswider.github.io/R0010046.JPG", "hotspots":{"unitCIntersection":{"p":1,"y":10},"eStairs":{"p":-30,"y":-80}}},
 "eStairs":{"image":"//mswider.github.io/R0010045.JPG", "hotspots":{"languageHallway1":{"p":20,"y":6},"lobbyStairs":{"p":-10,"y":-6}}},
 "kindergarten":{"image":"//mswider.github.io/R0010050.JPG", "hotspots":{"scienceIntersection":{"p":0,"y":3},"unitAIntersectionK":{"p":15,"y":-89}}},
@@ -14,4 +14,8 @@
 "science":{"image":"//mswider.github.io/R0010051.JPG", "hotspots":{"scienceIntersection2":{"p":-5,"y":-23},"norbert":{"p":-10,"y":35}}},
 "norbert":{"image":"//mswider.github.io/R0010052.JPG", "hotspots":{"science1":{"p":0,"y":40}}},
 "nStairsDown":{"image":"//mswider.github.io/R0010055.JPG", "hotspots":{"scienceIntersection3":{"p":0,"y":23},"library":{"p":-40,"y":0}}},
-"library":{"image":"//mswider.github.io/R0010056.JPG", "hotspots":{"nStairsDown1":{"p":0,"y":160}}}}
+"library":{"image":"//mswider.github.io/R0010056.JPG", "hotspots":{"nStairsDown1":{"p":0,"y":160}}},
+"nStairsUp":{"image":"//mswider.github.io/R0010057.JPG", "hotspots":{"scienceIntersection4":{"p":-90,"y":-35},"cLabIntersection":{"p":0,"y":20},"unitD2":{"p":5,"y":-16}}},
+"cLabIntersection":{"image":"//mswider.github.io/R0010058.JPG", "hotspots":{"nStairsUp1":{"p":15,"y":150},"cLab":{"p":15,"y":85},"unitD":{"p":15,"y":-178}}},
+"cLab":{"image":"//mswider.github.io/R0010059.JPG", "hotspots":{"cLabIntersection1":{"p":-10,"y":17}}},
+"unitD":{"image":"//mswider.github.io/R0010038.JPG", "hotspots":{"unitCIntersection1":{"p":-3,"y":7},"cLab1":{"p":-3,"y":32}}}}
