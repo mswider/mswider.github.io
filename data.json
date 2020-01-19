@@ -20,4 +20,5 @@
 "cLab":{"image":"//mswider.github.io/R0010068.JPG", "hotspots":{"cLabIntersection1":{"p":-5,"y":13}}},
 "unitD":{"image":"//mswider.github.io/R0010070.JPG", "hotspots":{"unitCIntersection1":{"p":1,"y":-180},"cLab1":{"p":5,"y":-158},"unitDStairs":{"p":-5,"y":0}}},
 "unitDStairs":{"image":"//mswider.github.io/R0010086.JPG", "hotspots":{"unitD3":{"p":-10,"y":-178},"unitDStairsK":{"p":30,"y":170}}},
-"lobby1":{"image":"//mswider.github.io/R0010074.JPG", "hotspots":{"lobby2":{"p":0,"y":165},"outside":{"p":6,"y":-7}}}}
+"lobby1":{"image":"//mswider.github.io/R0010074.JPG", "hotspots":{"lobby2":{"p":0,"y":165},"outside":{"p":6,"y":-7}}},
+"outside":{"image":"//mswider.github.io/R0010075.JPG", "hotspots":{"lobby3":{"p":0,"y":-176}}}}
