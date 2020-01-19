@@ -8,7 +8,7 @@
 "unitCIntersection":{"image":"//mswider.github.io/R0010039.JPG", "hotspots":{"wStairs1":{"p":20,"y":150},"languageHallway":{"p":-10,"y":-2},"unitD1":{"p":-2,"y":87}}},
 "languageHallway":{"image":"//mswider.github.io/R0010046.JPG", "hotspots":{"unitCIntersection":{"p":1,"y":10},"eStairs":{"p":-30,"y":-80}}},
 "eStairs":{"image":"//mswider.github.io/R0010045.JPG", "hotspots":{"languageHallway1":{"p":20,"y":6},"lobbyStairs":{"p":-10,"y":-6}}},
-"kindergarten":{"image":"//mswider.github.io/R0010050.JPG", "hotspots":{"scienceIntersection":{"p":0,"y":3},"unitAIntersectionK":{"p":15,"y":-89}}},
+"kindergarten":{"image":"//mswider.github.io/R0010050.JPG", "hotspots":{"scienceIntersection":{"p":0,"y":3},"unitAIntersectionK":{"p":15,"y":-89},"unitDStairsK1":{"p":2,"y":100}}},
 "scienceIntersection":{"image":"//mswider.github.io/R0010053.JPG", "hotspots":{"kindergartenScience":{"p":23,"y":173},"art":{"p":-5,"y":-3},"science":{"p":-15,"y":-82},"nStairsUp":{"p":0,"y":130},"nStairsDown":{"p":40,"y":120}}},
 "art":{"image":"//mswider.github.io/R0010054.JPG", "hotspots":{"scienceIntersection1":{"p":0,"y":4}}},
 "science":{"image":"//mswider.github.io/R0010051.JPG", "hotspots":{"scienceIntersection2":{"p":-5,"y":-23},"norbert":{"p":-10,"y":35}}},
@@ -18,4 +18,5 @@
 "nStairsUp":{"image":"//mswider.github.io/R0010057.JPG", "hotspots":{"scienceIntersection4":{"p":-90,"y":-35},"cLabIntersection":{"p":0,"y":20},"unitD2":{"p":5,"y":-16}}},
 "cLabIntersection":{"image":"//mswider.github.io/R0010058.JPG", "hotspots":{"nStairsUp1":{"p":15,"y":150},"cLab":{"p":15,"y":85},"unitD":{"p":15,"y":-178}}},
 "cLab":{"image":"//mswider.github.io/R0010068.JPG", "hotspots":{"cLabIntersection1":{"p":-5,"y":13}}},
-"unitD":{"image":"//mswider.github.io/R0010038.JPG", "hotspots":{"unitCIntersection1":{"p":-3,"y":7},"cLab1":{"p":-3,"y":32}}}}
+"unitD":{"image":"//mswider.github.io/R0010070.JPG", "hotspots":{"unitCIntersection1":{"p":1,"y":-180},"cLab1":{"p":5,"y":-158},"unitDStairs":{"p":-5,"y":0}}},
+"unitDStairs":{"image":"//mswider.github.io/R0010086.JPG", "hotspots":{"unitD3":{"p":-10,"y":-178},"unitDStairsK":{"p":30,"y":170}}}}
