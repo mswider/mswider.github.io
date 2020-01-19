@@ -17,5 +17,5 @@
 "library":{"image":"//mswider.github.io/R0010056.JPG", "hotspots":{"nStairsDown1":{"p":0,"y":160}}},
 "nStairsUp":{"image":"//mswider.github.io/R0010057.JPG", "hotspots":{"scienceIntersection4":{"p":-90,"y":-35},"cLabIntersection":{"p":0,"y":20},"unitD2":{"p":5,"y":-16}}},
 "cLabIntersection":{"image":"//mswider.github.io/R0010058.JPG", "hotspots":{"nStairsUp1":{"p":15,"y":150},"cLab":{"p":15,"y":85},"unitD":{"p":15,"y":-178}}},
-"cLab":{"image":"//mswider.github.io/R0010059.JPG", "hotspots":{"cLabIntersection1":{"p":-10,"y":17}}},
+"cLab":{"image":"//mswider.github.io/R0010068.JPG", "hotspots":{"cLabIntersection1":{"p":-5,"y":13}}},
 "unitD":{"image":"//mswider.github.io/R0010038.JPG", "hotspots":{"unitCIntersection1":{"p":-3,"y":7},"cLab1":{"p":-3,"y":32}}}}
