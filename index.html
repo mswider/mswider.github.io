@@ -64,6 +64,12 @@ XHR('data.json', function(response) {
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
+  vrView.addHotspot('lobby1', {
+    pitch: 15, // In degrees. Up is positive.
+    yaw: 177, // In degrees. To the right is positive.
+    radius: 0.75, // Radius of the circular target in meters.
+    distance: 10 // Distance of target from camera in meters.
+  });
   vrView.on('click', function(event) {
   switch(event.id){
 		case 'lobby':
@@ -215,6 +221,12 @@ XHR('data.json', function(response) {
       break;
     case 'unitDStairsK1':
       changeView("unitDStairs");
+      break;
+    case 'lobby1':
+      changeView("lobby1");
+      break;
+    case 'lobby2':
+      changeView("f1Lobby");
       break;
   }
   });
