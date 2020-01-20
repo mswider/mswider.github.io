@@ -26,7 +26,9 @@ XHR('data.json', function(response) {
   function changeView(location) {
     vrView.setContent({
       image: sceneData[location].image,
-      is_stereo: false
+      is_stereo: false,
+      is_autopan_off: true,
+      default_yaw: sceneData[location].dYaw
     });
     console.log(sceneData[location]);
 
@@ -46,27 +48,17 @@ XHR('data.json', function(response) {
     var width = window.innerWidth;
     var height = window.innerHeight;
     var vrView = new VRView.Player('#vrview', {
-      image: '//mswider.github.io/R0010043.JPG',
+      image: '//mswider.github.io/R0010075.JPG',
       is_stereo: false,
       width: width,
-      height: height
+      height: height,
+      default_yaw: 180,  //Default yaw rotation in degrees
+      is_autopan_off: true //Disables autopan
     });
     vrView.on('ready',function(){
-  vrView.addHotspot('lobby', {
-    pitch: -15, // In degrees. Up is positive.
-    yaw: 0, // In degrees. To the right is positive.
-    radius: 0.75, // Radius of the circular target in meters.
-    distance: 10 // Distance of target from camera in meters.
-  });
-  vrView.addHotspot('eStairs1', {
+  vrView.addHotspot('lobby3', {
     pitch: 0, // In degrees. Up is positive.
-    yaw: -69, // In degrees. To the right is positive.
-    radius: 0.75, // Radius of the circular target in meters.
-    distance: 10 // Distance of target from camera in meters.
-  });
-  vrView.addHotspot('lobby1', {
-    pitch: 15, // In degrees. Up is positive.
-    yaw: 177, // In degrees. To the right is positive.
+    yaw: -176, // In degrees. To the right is positive.
     radius: 0.75, // Radius of the circular target in meters.
     distance: 10 // Distance of target from camera in meters.
   });
