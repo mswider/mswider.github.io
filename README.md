@@ -1,2 +1,2 @@
-# stas-tour
-A 360 tour of St. Athanasius School
+# Tour
+A 360 tour 
